@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Casalduc</title>
+<meta name="description" content="Links by Gabriel Casalduc">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+    :root {
+        --bg: #14110f;
+        --bg-elev: #1f1b18;
+        --bg-hover: #2a2522;
+        --border: #3a322d;
+        --text: #f5f1ec;
+        --text-dim: #a89e94;
+        --accent: #f08c00;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        padding: 64px 20px 48px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 520px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avatar {
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--accent), #b85c00);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Lora', serif;
+        font-size: 38px;
+        font-weight: 500;
+        color: var(--bg);
+        margin-bottom: 20px;
+        box-shadow: 0 8px 24px rgba(240, 140, 0, 0.15);
+    }
+
+    h1 {
+        font-family: 'Lora', serif;
+        font-weight: 500;
+        font-size: 26px;
+        letter-spacing: 0.2px;
+        margin-bottom: 6px;
+    }
+
+    .subtitle {
+        color: var(--text-dim);
+        font-size: 14px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .link {
+        display: block;
+        padding: 18px 22px;
+        background: var(--bg-elev);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        color: var(--text);
+        text-decoration: none;
+        transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+        position: relative;
+    }
+
+    .link:hover {
+        background: var(--bg-hover);
+        border-color: var(--accent);
+        transform: translateY(-1px);
+    }
+
+    .link:active {
+        transform: translateY(0);
+    }
+
+    .link-label {
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 6px;
+    }
+
+    .link-title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.4;
+        padding-right: 24px;
+    }
+
+    .link::after {
+        content: '→';
+        position: absolute;
+        right: 22px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--text-dim);
+        font-size: 18px;
+        transition: transform 0.15s ease, color 0.15s ease;
+    }
+
+    .link:hover::after {
+        color: var(--accent);
+        transform: translateY(-50%) translateX(3px);
+    }
+
+    footer {
+        margin-top: 56px;
+        font-size: 12px;
+        color: var(--text-dim);
+        text-align: center;
+    }
+
+    footer a {
+        color: var(--accent);
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+        body { padding: 48px 18px 32px; }
+        .avatar { width: 84px; height: 84px; font-size: 34px; }
+        h1 { font-size: 22px; }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">G</div>
+        <h1>Gabriel Casalduc</h1>
+        <p class="subtitle">Founder, Divergent Health</p>
+
+        <div class="links">
+            <a class="link" href="https://elgabrielc.medium.com/on-diagnosing-may-thurner-syndrome-53bceb996a77" target="_blank" rel="noopener">
+                <div class="link-label">Medium</div>
+                <div class="link-title">On diagnosing May-Thurner Syndrome</div>
+            </a>
+
+            <a class="link" href="https://www.linkedin.com/posts/gabriel-casalduc_this-is-what-it-looks-like-when-your-internal-ugcPost-7440265221941813248-Mnum" target="_blank" rel="noopener">
+                <div class="link-label">LinkedIn</div>
+                <div class="link-title">I diagnosed severe IJV compression (two years before the doctors)</div>
+            </a>
+        </div>
+
+        <footer>
+            <a href="https://divergent.health/">divergent.health</a>
+        </footer>
+    </div>
+</body>
+</html>
