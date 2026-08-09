@@ -4,6 +4,8 @@ A single-page personal links site for Gabriel Casalduc, Founder of [Divergent He
 
 It presents a short, curated set of links as story chapters — the origin of a health journey, a self-diagnosis breakthrough, medical research work, and the launch of [myRadOne](https://myradone.com/).
 
+For everything about the project — how to add or edit links, the design system, and deployment — see the **[Central Guide](CENTRAL_GUIDE.md)**, the single source of truth.
+
 ## Live site
 
 https://elgabrielc.github.io/links/
