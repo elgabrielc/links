@@ -83,8 +83,8 @@ Each link is one `<a class="link">` containing two lines:
 | # | Chapter title (`.link-label`) | Destination |
 | --- | --- | --- |
 | 1 | Origin story of the health journey | Medium: On diagnosing May-Thurner Syndrome |
-| 2 | The major breakthrough | LinkedIn: IJV compression self-diagnosis |
-| 3 | Medical research and root-causing | Claude artifact: literature-review method |
+| 2 | Medical research and root-causing | Claude artifact: literature-review method |
+| 3 | The major breakthrough | LinkedIn: IJV compression self-diagnosis |
 | 4 | Starting a company, and launching the first product | myradone.com |
 
 > Note: the project folder is named `5-links`, but the page currently shows
