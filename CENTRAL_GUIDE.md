@@ -82,13 +82,15 @@ Each link is one `<a class="link">` containing two lines:
 
 | # | Chapter title (`.link-label`) | Destination |
 | --- | --- | --- |
-| 1 | Origin story of the health journey | Medium: On diagnosing May-Thurner Syndrome |
-| 2 | Medical research and root-causing | Claude artifact: literature-review method |
+| 1 | Medical research and root-causing | Claude artifact: literature-review method |
+| 2 | Origin story of the health journey | Medium: On diagnosing May-Thurner Syndrome |
 | 3 | The major breakthrough | LinkedIn: IJV compression self-diagnosis |
-| 4 | Starting a company, and launching the first product | myradone.com |
+| 4 | The last major breakthrough | Coming soon — placeholder card, `href="#"`, no destination yet |
+| 5 | Starting a company, and launching the first product | myradone.com |
 
-> Note: the project folder is named `5-links`, but the page currently shows
-> four cards. Keep this table in sync with `index.html` whenever links change.
+> Note: there are five cards, matching the project folder name `5-links`.
+> Position 4 ("The last major breakthrough") is a placeholder awaiting its real
+> link. Keep this table in sync with `index.html` whenever links change.
 
 ---
 
