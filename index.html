@@ -143,18 +143,22 @@
 
     footer {
         margin-top: 56px;
-        font-size: 12px;
+        font-size: 14px;
         color: var(--text-dim);
         text-align: center;
     }
 
     footer a {
-        color: var(--accent);
+        color: var(--text-dim);
         text-decoration: none;
     }
 
     footer a:hover {
         text-decoration: underline;
+    }
+
+    footer .domain {
+        color: var(--accent);
     }
 
     @media (max-width: 480px) {
@@ -198,7 +202,7 @@
         </div>
 
         <footer>
-            <a href="https://divergent.health/">divergent.health</a>
+            <a href="https://divergent.health/">Visit <span class="domain">divergent.health</span></a>
         </footer>
     </div>
 </body>
